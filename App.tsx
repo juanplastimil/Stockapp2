@@ -1,6 +1,6 @@
 
 import React, { useState, useMemo } from 'react';
-import { useSessionStorage } from './hooks/useSessionStorage';
+import { useSessionStorage } from './src/hooks/useSessionStorage';
 import { RawMaterial, Supplier, StockInflow, StockOutflow, Page, Category } from './types';
 import { sampleRawMaterials, sampleSuppliers, sampleInflows, sampleOutflows, sampleCategories } from './constants';
 import Layout from './components/layout/Layout';
